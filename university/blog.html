@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY</title>
+    <link rel="stylesheet" href="university.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="#"><img src="uni/logo.jpeg" alt=""></a>
+            <div class="navlink" id="Nav">
+                <i class="fa-solid fa-circle-xmark fa"onclick="remove()"></i>
+            <ul>
+                <li><a href="university.html">HOME</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+               </div>
+               <i class="fa-solid fa-bars fa" onclick="move()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2025</h1>
+    </section>
+
+    <section class="blogcontent">
+        <div class="row">
+            <div class="blogleft">
+                <img src="uni/blog.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2025</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum soluta ex possimus vero unde reprehenderit voluptatibus dignissimos. Sapiente provident quisquam perferendis praesentium vero delectus laboriosam optio natus voluptatibus eos.</p><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quasi minus tempora temporibus inventore rerum atque. Atque veritatis ullam ducimus quidem cumque totam, nobis in, et harum alias fugiat sapiente?</p><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, rem maiores? Adipisci repellat magnam doloremque molestias quam, neque saepe ad culpa, eos aliquid labore mollitia debitis praesentium voluptates provident eaque?</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odio enim nisi totam quos fugiat doloribus quidem impedit rerum asperiores optio minima autem aliquam expedita magni, placeat quae aspernatur aliquid.</p>
+
+
+
+               <div class="commentbox">
+                <h3>Leave a Comment</h3>
+                <form class="commentform">
+                    <input type="text" placeholder="Enter Name" >
+                    <input type="email" placeholder="Enter Email" >
+                    <textarea rows="5" placeholder="Your Cmomment"></textarea>
+                    <button type="submit" class="herobtn redbtn">Post Comment</button>
+                </form>
+               </div>
+            </div>
+            <div class="blogright">
+                <h3>Post Catogries</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quam numquam a voluptatum ad delectus dolorum cumque minima repellendus voluptatibus corrupti nemo,<br> deserunt doloremque magnam inventore aliquid. Itaque, beatae iste!</p>
+
+      <div class="icons">
+        <i class="fa-brands fa-facebook fa"></i>
+        <i class="fa-brands fa-instagram fa"></i>
+        <i class="fa-brands fa-twitter fa"></i>
+        <i class="fa-brands fa-linkedin fa"></i>
+      </div>
+      <p>made with <i class="fa-regular fa-heart"></i> by NIKHIL  </p>
+    </section>
+    
+   <script>
+  let slid = document.getElementById('Nav');
+  
+  function move() {
+    slid.style.right = '0';
+  }
+  
+  function remove() {
+    slid.style.right = '-200px';
+  }
+</script>
+
+
+
+</body>
+</html>

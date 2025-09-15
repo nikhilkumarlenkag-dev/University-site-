@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY</title>
+    <link rel="stylesheet" href="university.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="#"><img src="uni/logo.jpeg" alt=""></a>
+            <div class="navlink" id="Nav">
+                <i class="fa-solid fa-circle-xmark fa"onclick="remove()"></i>
+            <ul>
+                <li><a href="university.html">HOME</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+               </div>
+               <i class="fa-solid fa-bars fa" onclick="move()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+
+    <section class="about">
+        <div class="row">
+            <div class="aboutcol">
+                <h1>We Are The Best University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ab et earum delectus consequatur rerum culpa repellendus eaque reiciendis velit voluptatum, magnam, eum itaque? Rerum neque adipisci excepturi mollitia labore.</p>
+                <a href="#" class="herobtn redbtn">Explore Now</a>
+            </div>
+            <div class="aboutcol">
+                <img src="uni/aboutcol me.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quam numquam a voluptatum ad delectus dolorum cumque minima repellendus voluptatibus corrupti nemo,<br> deserunt doloremque magnam inventore aliquid. Itaque, beatae iste!</p>
+
+      <div class="icons">
+        <i class="fa-brands fa-facebook fa"></i>
+        <i class="fa-brands fa-instagram fa"></i>
+        <i class="fa-brands fa-twitter fa"></i>
+        <i class="fa-brands fa-linkedin fa"></i>
+      </div>
+      <p>made with <i class="fa-regular fa-heart"></i> by NIKHIL  </p>
+    </section>
+    
+   <script>
+  let slid = document.getElementById('Nav');
+  
+  function move() {
+    slid.style.right = '0';
+  }
+  
+  function remove() {
+    slid.style.right = '-200px';
+  }
+</script>
+
+
+
+</body>
+</html>

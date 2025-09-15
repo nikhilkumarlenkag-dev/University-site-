@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY</title>
+    <link rel="stylesheet" href="university.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="#"><img src="uni/logo.jpeg" alt=""></a>
+            <div class="navlink" id="Nav">
+                <i class="fa-solid fa-circle-xmark fa"onclick="remove()"></i>
+            <ul>
+                <li><a href="university.html">HOME</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+               </div>
+               <i class="fa-solid fa-bars fa" onclick="move()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.844992836268!2d75.8866375805062!3d26.81306381664661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc9a64b8d1d6f%3A0xa9df73ee30cd976f!2sVGU%20Campus!5e0!3m2!1sen!2sin!4v1757439144610!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   </section>
+
+
+    <section class="contactus">
+        <div class="row">
+         <div class="contactcol">
+            <div>
+                <i class="fa-regular fa-house fa"></i>
+                <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>Patna ,Bihar ,India</p>
+                </span>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-phone fa"></i>
+                <span>
+                <h5>+91 8808653938</h5>
+                <p>Monday to Friday, 10am to 4pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-regular fa-envelope fa"></i>
+                <span>
+                    <h5>ayushpandey845418@gmail.com</h5>
+                    <p>Patna , Bihar , India</p>
+                </span>
+            </div>
+         </div>
+         <div class="contactcol">
+
+           <form action="form.php" method="post">
+            <input type="text"  name="name" placeholder=" Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <input type="text" name="subject" placeholder="Enter Your Subject" required>
+            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+            <button type="submit" class="herobtn redbtn">Send Message</button>
+           </form>
+
+         </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quam numquam a voluptatum ad delectus dolorum cumque minima repellendus voluptatibus corrupti nemo,<br> deserunt doloremque magnam inventore aliquid. Itaque, beatae iste!</p>
+
+      <div class="icons">
+        <i class="fa-brands fa-facebook fa"></i>
+        <i class="fa-brands fa-instagram fa"></i>
+        <i class="fa-brands fa-twitter fa"></i>
+        <i class="fa-brands fa-linkedin fa"></i>
+      </div>
+      <p>made with <i class="fa-regular fa-heart"></i> by NIKHIL  </p>
+    </section>
+    
+   <script>
+  let slid = document.getElementById('Nav');
+  
+  function move() {
+    slid.style.right = '0';
+  }
+  
+  function remove() {
+    slid.style.right = '-200px';
+  }
+</script>
+
+
+
+</body>
+</html>
